@@ -1,0 +1,206 @@
+.filter-interaction:hover,
+.filter-interaction:focus {
+  background-color: var(--interaction-color);
+  color: var(--interaction-color-2);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+:root {
+  --interaction-color: #2196f3;
+  --interaction-color-2: #fff;
+  --background-color: #2f303a;
+  --text-color: #212121;
+  --project-type-and-contact-color: #757575;
+  --filter-button-background-color: #f5f4fa;
+  --contact-footer-color: #ffffff99;
+  --logo-header-color: #000;
+}
+
+.menu-interaction:hover,
+.menu-interaction:focus {
+  color: var(--interaction-color);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--text-color);
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+address {
+  font-style: normal;
+}
+
+h1 {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+h2 {
+  font-size: 36px;
+  line-height: 1.17;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.background {
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.order-service {
+  color: #fff;
+  background-color: var(--interaction-color);
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  width: 200px;
+  height: 50px;
+  align-items: center;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.menu-style {
+  color: var(--text-color);
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+
+.project-name {
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+}
+
+.project-type {
+  color: #757575;
+  font-size: 16px;
+  line-height: 1.87;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.filter-name {
+  font-size: 16px;
+  line-height: 1.62;
+  font-weight: 500;
+  background-color: #f5f4fa;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border-radius: 4px;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.contact-header {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  color: var(--project-type-and-contact-color);
+  letter-spacing: 0.02em;
+}
+
+.contact-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  color: var(--contact-footer-color);
+  letter-spacing: 0.03em;
+}
+
+.address-name {
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.logo-header {
+  color: var(--logo-header-color);
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.logo-footer {
+  color: #fff;
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.first-part-header {
+  color: var(--interaction-color);
+}
+
+.first-part-footer {
+  color: #2196f3;
+}
+
+.footer-style {
+  background-color: var(--background-color);
+}
+
+.text-header {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.text-style {
+  color: var(--project-type-and-contact-color);
+  font-size: 14px;
+  line-height: 1.71;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+}
+
+.team-member-name {
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-member-area {
+  color: var(--project-type-and-contact-color);
+  font-size: 16px;
+  line-height: 1.19;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
