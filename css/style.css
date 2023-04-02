@@ -1,3 +1,67 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px auto;
+}
+
+.header-placement {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding-right: 30px;
+}
+
+.logo-and-menu-placement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .contact-placement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.menu-list-placement {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 46px;
+  padding-left: 93px;
+}
+
+.contact-list-placement {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+}
+
+.footer-contact-list-placement {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9px;
+  padding-top: 20px;
+}
+
 .filter-interaction:hover,
 .filter-interaction:focus {
   background-color: var(--interaction-color);
@@ -47,6 +111,10 @@ address {
   font-style: normal;
 }
 
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 h1 {
   color: #fff;
   font-size: 44px;
@@ -54,6 +122,8 @@ h1 {
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  margin-top: 120px;
+  margin-bottom: 15px;
 }
 
 h2 {
@@ -62,11 +132,15 @@ h2 {
   font-weight: 700;
   letter-spacing: 0.03em;
   text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  margin-bottom: 50px;
 }
 
 .background {
   background-color: var(--background-color);
   text-align: center;
+  height: 600px;
 }
 
 .order-service {
@@ -82,6 +156,8 @@ h2 {
   text-align: center;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  margin-bottom: 200px;
+  margin-top: 15px;
 }
 
 .menu-style {
@@ -97,6 +173,8 @@ h2 {
   line-height: 2;
   font-weight: 700;
   letter-spacing: 0.06em;
+  padding-top: 20px;
+  padding-left: 24px;
 }
 
 .project-type {
@@ -105,6 +183,8 @@ h2 {
   line-height: 1.87;
   font-weight: 400;
   letter-spacing: 0.03em;
+  padding-bottom: 20px;
+  padding-left: 24px;
 }
 
 .filter-name {
@@ -114,9 +194,9 @@ h2 {
   background-color: #f5f4fa;
   text-align: center;
   letter-spacing: 0.03em;
+  border: none;
   border-radius: 4px;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+  padding: 6px 22px;
 }
 
 .contact-header {
@@ -171,6 +251,7 @@ h2 {
 
 .footer-style {
   background-color: var(--background-color);
+  height: 252px;
 }
 
 .text-header {
@@ -186,6 +267,7 @@ h2 {
   line-height: 1.71;
   font-weight: 400;
   letter-spacing: 0.03em;
+  padding-top: 10px;
 }
 
 .team-member-name {
@@ -194,6 +276,10 @@ h2 {
   font-weight: 500;
   text-align: center;
   letter-spacing: 0.03em;
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 0;
 }
 
 .team-member-area {
@@ -203,4 +289,106 @@ h2 {
   font-weight: 400;
   text-align: center;
   letter-spacing: 0.03em;
+  display: flex;
+  justify-content: center;
+  padding-top: 0;
+}
+
+/* .column {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+} */
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.no-top-padding {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.team-section {
+  background-color: #f5f4fa;
+}
+
+.team-box {
+  width: 270px;
+  height: 368px;
+  background-color: #fff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.content-elements {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.team-elements {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.services-elements {
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+}
+
+.content-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.content-element {
+  width: 270px;
+}
+
+.logo-footer-placement {
+  display: flex;
+  padding-top: 60px;
+}
+
+/* .logo-header-placement {
+  display: flex;
+  padding-left: 15px;
+} */
+
+.filter-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.projects-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding-top: 50px;
+}
+
+.project-box {
+  width: 370px;
+  height: 404px;
+}
+
+.project-description-box {
+  height: 110px;
+  border-left: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
 }
